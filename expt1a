@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <iostream>
+#include <conio.h>
+using namespace std;
+
+int main()
+{
+    float r, A, C;
+    cout<<"Enter radius of a circle :";
+    cin>>r;
+    A=3.14*r*r;
+    C=2*3.14*r;
+    cout<<"Area of a circle: "<<A;
+    cout<<"\nCircumference of a circle: "<<C;
+    getch();
+    return 0;
+}
