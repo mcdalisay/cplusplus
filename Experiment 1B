@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <iostream>
+#include <conio.h>
+#include <math.h>
+using namespace std;
+
+int main()
+{
+    float t, a, C;
+    cout<<"Enter Theta :";
+    cin>>t;
+    cout<<"Enter a :";
+    cin>>a;
+    C=pow(a,2)-sqrt(exp(2.0)-sin(t*3.14/180));
+    cout<<"The value of C: "<<C;
+    getch();
+    return 0;
+}
