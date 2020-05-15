@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <iostream>
+#include <conio.h>
+using namespace std;
+
+int main()
+{
+    int IQ;
+    cout<<"Enter the Range of IQ :";
+    cin>>IQ;
+    if(IQ>=140)
+    cout<<"Classification Name : Genius or Near Genius";
+    else if(IQ>=120&&IQ<=139)
+    cout<<"Classification Name : Very Superior Intelligence";
+    else if(IQ>=110&&IQ<=119)
+    cout<<"Classification Name : Superior Intelligence";
+    else if(IQ>=90&&IQ<=109)
+    cout<<"Classification Name : Normal or Average Intelligence";
+    else
+    cout<<"Classification Name : Dullness";
+    getch();
+    return 0;
+}
