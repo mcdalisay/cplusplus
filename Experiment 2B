@@ -1,0 +1,28 @@
+#include <stdio.h>
+#include <iostream>
+#include <conio.h>
+using namespace std;
+
+int main()
+{
+    float r, s, v;
+    char ch;
+    cout<<"Enter Radius :";
+    cin>>r;
+    cout<<"Enter Choice :";
+    cin>>ch;
+    if(ch=='S'||ch=='s')
+    {
+        s = 4.0*3.14*r*r;
+        cout<<"Surface Area of Sphere :"<<s;
+    }
+    else if(ch=='V'||ch=='v')
+    {
+        v = 4.0/3.0*3.14*r*r*r;
+        cout<<"Volume of Sphere :"<<v;
+    }
+    else
+    cout<<"Invalid input";
+    getch();
+    return 0;
+}
