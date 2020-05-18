@@ -1,0 +1,33 @@
+#include <stdio.h>
+#include <iostream>
+#include <conio.h>
+using namespace std;
+
+int main()
+{
+    int omr;
+    cout<<"Enter Oman Rial :";
+    cin>>omr;
+    switch(omr)
+    {
+        case 1: 
+        cout<<"Denomination : One Rial";
+        break;
+        case 5: 
+        cout<<"Denomination : Five Rial";
+        break;
+        case 10: 
+        cout<<"Denomination : Ten Rial";
+        break;
+        case 20: 
+        cout<<"Denomination : Twenty Rial";
+        break;
+        case 50: 
+        cout<<"Denomination : Fifty Rial";
+        break;
+        default:
+        cout<<"Invalid input";
+    }
+    getch();
+    return 0;
+}
