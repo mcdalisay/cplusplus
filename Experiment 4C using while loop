@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <iostream>
+#include <conio.h>
+using namespace std;
+
+int main()
+{
+    int N, i, sum;
+    cout<<"Enter any number: ";
+    cin>>N;
+    cout<<"The series are: ";
+    sum=0;
+    i=N;
+    while(i>=1)
+    {
+        cout<<i<<"   ";
+        sum=sum+i;
+        i=i-2;
+    }
+    cout<<"\nThe sum is: "<<sum;
+    getch();
+    return 0;
+}
